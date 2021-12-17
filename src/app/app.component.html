@@ -1,0 +1,14 @@
+<h1>Show List of Elements</h1>
+<table>
+  <tr>
+    <td>Book ID</td>
+    <td>Name</td>
+    <td>User ID</td>
+  </tr>
+
+  <tr *ngFor = "let item of datas">
+    <td>{{item.id}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.userId}}</td>
+  </tr>
+</table>
